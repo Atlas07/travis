@@ -11,10 +11,9 @@ services:
   - docker
 
 before_install:
-  - docker pull node:11.6.0-alpine
-  - docker build -t travis-img .
-  - docker run -d -p 8080:8080 travis-img
+  - docker build -t "travis" .
+  - docker run -d -p 8080:8080 travis
   - docker ps -a
   
-script:
-  - npm start
+# script:
+#   - npm start
