@@ -1,0 +1,20 @@
+{
+  "name": "travis-pl",
+  "version": "1.0.0",
+  "description": "Travis playground",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atlas07/travis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Atlas07/travis/issues"
+  },
+  "homepage": "https://github.com/Atlas07/travis#readme"
+}
