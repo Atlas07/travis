@@ -25,6 +25,8 @@ DCrCTxSswbOdNIySqhuH8WfcHOG/Q8KEfhtFG901N4qnDpAyz8enzPqxUCmNUxVJ8V3yal8IOcotAKwE
 8MXJZP/LwMYeja182dGmBZFFOZ1LyTYOctTCt+pTEjqwqQ/E00jneCDWWkWzgoI8YVnIBf9e7M+DpvOOnAWv/+4woy29LIWd0vyL09Jv+ZUBIxLfljtUxtvDGZ2RW
 TyU93/nu1oc555v4PbmSWGqp2MJ4qNMtkrisXbxY/o3bFgJpD80/VTYk/hZ9IccVw6q+ZfPRFv4Io0xEi+UpLDsbW6mkOmKFSCDpFEaYlqo2EUB/vfDm5kbuYxBr7
 KnogHNTVoDNbo813Ok3fQkaKauk+QnXA2aq8Tc3YQ2g5a+Kmekgxvx8SbTiwffNjgRsOU="
-
+  app: travis
+  on:
+    repo: Atlas07/travis
 # script:
 #   - npm start
