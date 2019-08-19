@@ -19,7 +19,12 @@ before_install:
 deploy:
   provider: heroku
   api_key:
-    secure: "ec71be40-7af2-469a-8e32-7bb8c2e80c0b"
+    secure: "T4v2SCxuV0/hinPFSfi5chMC4ieacWbdA3CMu6jau/AwW+aIKhbBGX/N0NH6kudaL7dyvJdoRe0xRQqwnT/7loOeUlN6/PhsdoP8QDVZTkSTYIFmpt
+3gyXiOh9H5lQHztPmgx/M2PUrBhyrZnwpY/p/V/3sfC8kDvmVfzKX37eGWtclHoQtPn8khfvy0Zr65L5imobM0MsHMybUtxAOWaNVAHD9FHrDU+YPa399QKA+jmOO
+DCrCTxSswbOdNIySqhuH8WfcHOG/Q8KEfhtFG901N4qnDpAyz8enzPqxUCmNUxVJ8V3yal8IOcotAKwEBkQSjmiedx8Ycp/ZYLgxR65klsij+Uixp1gSZd6hsM+Sy
+8MXJZP/LwMYeja182dGmBZFFOZ1LyTYOctTCt+pTEjqwqQ/E00jneCDWWkWzgoI8YVnIBf9e7M+DpvOOnAWv/+4woy29LIWd0vyL09Jv+ZUBIxLfljtUxtvDGZ2RW
+TyU93/nu1oc555v4PbmSWGqp2MJ4qNMtkrisXbxY/o3bFgJpD80/VTYk/hZ9IccVw6q+ZfPRFv4Io0xEi+UpLDsbW6mkOmKFSCDpFEaYlqo2EUB/vfDm5kbuYxBr7
+KnogHNTVoDNbo813Ok3fQkaKauk+QnXA2aq8Tc3YQ2g5a+Kmekgxvx8SbTiwffNjgRsOU="
 
   
 # script:
