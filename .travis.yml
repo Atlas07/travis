@@ -1,32 +1,18 @@
 language: node_js
-
 node_js:
-  - stable
-
+- stable
 branches:
   only:
-    - master
-
+  - master
 services:
-  - docker
-
+- docker
 before_install:
-  # - docker build -t "travis" .
-  # - docker run -d -p 8080:8080 travis
-  - docker-compose up -d
-  - docker ps -a
-
+- docker-compose up -d
+- docker ps -a
 deploy:
   provider: heroku
   api_key:
-    secure: "T4v2SCxuV0/hinPFSfi5chMC4ieacWbdA3CMu6jau/AwW+aIKhbBGX/N0NH6kudaL7dyvJdoRe0xRQqwnT/7loOeUlN6/PhsdoP8QDVZTkSTYIFmpt
-3gyXiOh9H5lQHztPmgx/M2PUrBhyrZnwpY/p/V/3sfC8kDvmVfzKX37eGWtclHoQtPn8khfvy0Zr65L5imobM0MsHMybUtxAOWaNVAHD9FHrDU+YPa399QKA+jmOO
-DCrCTxSswbOdNIySqhuH8WfcHOG/Q8KEfhtFG901N4qnDpAyz8enzPqxUCmNUxVJ8V3yal8IOcotAKwEBkQSjmiedx8Ycp/ZYLgxR65klsij+Uixp1gSZd6hsM+Sy
-8MXJZP/LwMYeja182dGmBZFFOZ1LyTYOctTCt+pTEjqwqQ/E00jneCDWWkWzgoI8YVnIBf9e7M+DpvOOnAWv/+4woy29LIWd0vyL09Jv+ZUBIxLfljtUxtvDGZ2RW
-TyU93/nu1oc555v4PbmSWGqp2MJ4qNMtkrisXbxY/o3bFgJpD80/VTYk/hZ9IccVw6q+ZfPRFv4Io0xEi+UpLDsbW6mkOmKFSCDpFEaYlqo2EUB/vfDm5kbuYxBr7
-KnogHNTVoDNbo813Ok3fQkaKauk+QnXA2aq8Tc3YQ2g5a+Kmekgxvx8SbTiwffNjgRsOU="
-  app: travis
+    secure: XK6f5TpSnq59qHNC5XW/EiSXP6VfEsWR3mwpzv/BPacMiXbFr054Okz2NoVubnDa3ESmKacyuvmxVqORkqQlE+NgcfbqDE3Y7HerpWzwrLXclxccx9YpireSdNaeCwPGiG8pGSzCID85WT3l9WGg87H7cDx/QfTNPnzrUxy4Z5byNSQcCYzsgzyJ04SQPAgIQ+tS42/b2RfzIAgjs03eJh/7zBoG2cWuWzOGa/obyB/BeEdeF7yyQzM88z6uX8cpp91MMBs1ysYBnbmEU+ytayabL4GdIy2MSAZr/KRsFr4E+MWmQ1cBWmU3b2t3Mr8UGej75izhWGez74MaddpQ7UPPiSuONNDyxJJGKSdQCzRMFY3v7rvGBXbqv/XfBPj7a4zYwEjqPf4EqeR1YW+JQZpu2tccAS26QMx86WmrkbIRKPX0U7YXXsQZSVDN99A7GH5E/WkHIWDTfRHhVloRy629bn7LGlRYcwjCI4wC5WrHZQZ1Eh8hj2OY/ADu9GxG3dGmKqlQ7V4U5MMWUMdolDFdM4x36Jawrv2m9YDSR8+04ONUglWgj3FnpB/T3YuM8XGWe4+5VUhrKcypGp5FHkBwVyqfxImNJhbZh6MXorirg6IpkEIax6qj8f7APRCMaMobZ1qVPHqYW0pe1FTZcTuod/MPxo9AzGuYUzadhdU=
+  app: calm-ridge-41028
   on:
     repo: Atlas07/travis
-# script:
-#   - npm start
